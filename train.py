@@ -24,6 +24,7 @@ random.seed(seed)
 torch.manual_seed(seed)
 np.random.seed(seed)
 
+
 def evaluate_loss(model, dataloader, loss_fn, text_field, dual):
     # Validation loss
     model.eval()
