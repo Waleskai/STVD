@@ -15,3 +15,4 @@ def get_device(x: TensorOrSequence) -> int:
     else:
         b_s = x[0].device
     return b_s
+
