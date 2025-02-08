@@ -42,6 +42,7 @@ def predict_captions(model, dataloader, text_field):
    
     with open('./result/Tao_gens.txt','w') as wf:
         [wf.write('{0},{1}\n'.format(key, value)) for key, value in gen.items()]
+        
     return scores
 
 
