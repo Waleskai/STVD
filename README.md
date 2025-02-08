@@ -1,6 +1,6 @@
 # STVD
 
-This repository contains the reference code for the paper *ST-Caps: Towards Scene Text Video Captioning with Hierarchical Contrastive Learning.*
+This repository contains the reference code for the paper *Recognize-And-Tell: Generating Video Captions with Textual Cue in Scene*
 
 ## E-TVCaps Dataset
 ST-Caps Dataset can be download [here](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_caption.csv).
