@@ -4,6 +4,7 @@ from .rouge import Rouge
 from .cider import Cider
 from .tokenizer import PTBTokenizer
 
+
 def compute_scores(gts, gen):
     metrics = (Bleu(), Meteor(), Rouge(), Cider())
     all_score = {}
